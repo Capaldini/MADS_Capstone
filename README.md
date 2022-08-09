@@ -56,7 +56,7 @@ Users of this product are users of online courses and video conference call reco
 •	Data Source & Data Acquisition Tool
 
 We used a Python library called coursera-dl to download MADS course transcripts that we’re authorized to access from the MADS program. The dataset we created for analysis has two columns, one column is the course number, the other column is the text transcripts. 
-Here is a list of MADS curriculum and course names. Feel free to click the link to GitHub of Coursera Downloader if you’re interested in exploring this tool.
+Here is a [list](https://www.si.umich.edu/programs/master-applied-data-science-online/curriculum/mads-courses) of MADS curriculum and course names. Feel free to click the [link](https://github.com/coursera-dl/coursera-dl#coursera-downloader) to GitHub of Coursera Downloader if you’re interested in exploring this tool.
 
 
 ## 3. Methodology
