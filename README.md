@@ -1,7 +1,6 @@
-# MADS_Capstone
-# Generating URLs for Coursera Videos
-# Master of Applied Data Science Capstone Project 
-# University of Michigan School of Information
+# MADS_Capstone_Generating URLs for Coursera Videos
+Master of Applied Data Science Capstone Project 
+University of Michigan School of Information
 
 Team: 
 Nick Capaldini, nickcaps@umich.edu
@@ -82,8 +81,3 @@ We’ll recruit classmates from MADS program to help us evaluate the accuracy of
 
 •	Microsoft Teams Extension
 A potential commercial application of this project would be an extension to Microsoft Teams. 
-
-
-
-
-![image](https://user-images.githubusercontent.com/101129457/183686496-658be60f-453e-469a-887f-38808f9cf3dd.png)
