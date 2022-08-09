@@ -3,40 +3,40 @@ Master of Applied Data Science Capstone Project
 
 University of Michigan School of Information
 
-Team: 
-Nick Capaldini, nickcaps@umich.edu
-Wei Zhou, weiwzhou@umich.edu
+Team Members: 
+* [Nick Capaldini](https://www.linkedin.com/in/nick-capaldini/), nickcaps@umich.edu
+* [Wei Zhou](https://www.linkedin.com/in/wei-zhou-5aab0b102/), weiwzhou@umich.edu
 
 
 Table of Contents: 
 
 1.	Introduction
 
-    •	Background
+    * Background
 
-    •	Audience & Motivation
+    * Audience & Motivation
 
 2.	Data Acquisition
 
-    •	Data Source & Data Acquisition Tools 
+    * Data Source & Data Acquisition Tools 
 
 3.	Methodology
 
-    •	Data Cleaning
+    * Data Cleaning
 
-    •	Feature Engineering
+    * Feature Engineering
 
-    •	wikipedia Library
+    * wikipedia Library
 
 4.	Results & Discussion
 
-    •	Accuracy Score
+    * Accuracy Score
 
 5.	Conclusion & Future Direction
 
-    •	Audience Testing
+    * Audience Testing
 
-    •	Microsoft Teams Extension
+    * Microsoft Teams Extension
 
 
 
