@@ -11,23 +11,32 @@ Wei Zhou, weiwzhou@umich.edu
 Table of Contents: 
 
 1.	Introduction
-•	Background
-•	Audience & Motivation
+
+    •	Background
+
+    •	Audience & Motivation
 
 2.	Data Acquisition
-•	Data Source & Data Acquisition Tools 
+
+    •	Data Source & Data Acquisition Tools 
 
 3.	Methodology
-•	Data Cleaning
-•	Feature Engineering
-•	wikipedia Library
+
+    •	Data Cleaning
+
+    •	Feature Engineering
+
+    •	wikipedia Library
 
 4.	Results & Discussion
-•	Accuracy Score
+
+    •	Accuracy Score
 
 5.	Conclusion & Future Direction
-•	Audience Testing
-•	Microsoft Teams Extension
+
+    •	Audience Testing
+
+    •	Microsoft Teams Extension
 
 
 
