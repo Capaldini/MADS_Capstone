@@ -37,7 +37,12 @@ Table of Contents:
     * Audience Testing
 
     * Microsoft Teams Extension
-
+    * 
+- [1. Introduction](#1-introduction)
+- [2. Data Acquisition](#2-data-acquisition)
+- [3. Methodology](#3-methodology)
+- [4. Results & Discussion](#4-results---discussion)
+- [5. Conclusion & Future Direction](#5-conclusion---future-direction)
 
 
 
