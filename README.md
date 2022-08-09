@@ -8,36 +8,8 @@ Team Members:
 * [Wei Zhou](https://www.linkedin.com/in/wei-zhou-5aab0b102/), weiwzhou@umich.edu
 
 
-Table of Contents: 
+## Table of Contents: 
 
-1.	Introduction
-
-    * Background
-
-    * Audience & Motivation
-
-2.	Data Acquisition
-
-    * Data Source & Data Acquisition Tools 
-
-3.	Methodology
-
-    * Data Cleaning
-
-    * Feature Engineering
-
-    * wikipedia Library
-
-4.	Results & Discussion
-
-    * Accuracy Score
-
-5.	Conclusion & Future Direction
-
-    * Audience Testing
-
-    * Microsoft Teams Extension
-    * 
 - [1. Introduction](#1-introduction)
 - [2. Data Acquisition](#2-data-acquisition)
 - [3. Methodology](#3-methodology)
@@ -46,7 +18,7 @@ Table of Contents:
 
 
 
-## 1. Introduction
+### 1. Introduction
 
 •	Background
 
@@ -56,7 +28,7 @@ As students from the MADS program, we’ve completed the whole program online. T
 
 Users of this product are users of online courses and video conference call recordings. This product feature could not only be applied to the online learning platform, but also in business context. For example, when users of business organizations watch previously recorded video, automatically generated URLs will pop up under the video based on the video’s content (transcripts).
 
-## 2. Data Acquisition
+### 2. Data Acquisition
 
 •	Data Source & Data Acquisition Tool
 
@@ -64,7 +36,7 @@ We used a Python library called coursera-dl to download MADS course transcripts 
 Here is a [list](https://www.si.umich.edu/programs/master-applied-data-science-online/curriculum/mads-courses) of MADS curriculum and course names. Feel free to click the [link](https://github.com/coursera-dl/coursera-dl#coursera-downloader) to GitHub of Coursera Downloader if you’re interested in exploring this tool.
 
 
-## 3. Methodology
+### 3. Methodology
 
 •	Data Cleaning
 
@@ -80,7 +52,7 @@ We introduced BERT model to help extract key words and key phrases. We ran Keyph
 
 The next step is to search query and return URLs for key words extracted. This is the most complex part of our project.  We used the wikipedia library, which takes word and return URL and page summary as requested. However, there’re two types of difficulties (Python errors) we need to solve: Disambiguation Error and Page Error. Disambiguation Error occurs when the key word may refer to more than one terms, for example, ‘Sample’ may refer to Sample (statistics) or Sample (signal) or Sample (material), etc. Page Error occurs when key word does not match any page id, for example, key phrase ‘harry plotter’ will cause Page Error. To solve the Disambiguation Error, we used DisambiguationError.options  to get all the options that wikipedia.org could find, and then we calculated cosine similarity between input key word and every option in the options list, and finally we return the option with the highest cosine similarity. In the above process, we transformed original extracted key words to options that Wikipedia has pages for. We finally got 1053 out of 1209 automatically generated URLs through our model. 
 
-## 4. Results & Discussion
+### 4. Results & Discussion
 
 •	Accuracy Score
 
@@ -88,7 +60,7 @@ To evaluate the accuracy of model, we decided to go through a manual review proc
 
 
 
-## 5. Conclusion & Future Direction
+### 5. Conclusion & Future Direction
 
 •	Audience Testing
 
