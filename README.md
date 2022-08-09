@@ -13,8 +13,8 @@ Team Members:
 - [1. Introduction](#1-introduction)
 - [2. Data Acquisition](#2-data-acquisition)
 - [3. Methodology](#3-methodology)
-- [4. Results & Discussion](#4-results---discussion)
-- [5. Conclusion & Future Direction](#5-conclusion---future-direction)
+- [4. Results and Discussion](#4-results-and-discussion)
+- [5. Conclusion and Future Direction](#5-conclusion-and-future-direction)
 
 
 
@@ -52,7 +52,7 @@ We introduced BERT model to help extract key words and key phrases. We ran Keyph
 
 The next step is to search query and return URLs for key words extracted. This is the most complex part of our project.  We used the wikipedia library, which takes word and return URL and page summary as requested. However, there’re two types of difficulties (Python errors) we need to solve: Disambiguation Error and Page Error. Disambiguation Error occurs when the key word may refer to more than one terms, for example, ‘Sample’ may refer to Sample (statistics) or Sample (signal) or Sample (material), etc. Page Error occurs when key word does not match any page id, for example, key phrase ‘harry plotter’ will cause Page Error. To solve the Disambiguation Error, we used DisambiguationError.options  to get all the options that wikipedia.org could find, and then we calculated cosine similarity between input key word and every option in the options list, and finally we return the option with the highest cosine similarity. In the above process, we transformed original extracted key words to options that Wikipedia has pages for. We finally got 1053 out of 1209 automatically generated URLs through our model. 
 
-### 4. Results & Discussion
+### 4. Results and Discussion
 
 •	Accuracy Score
 
@@ -60,7 +60,7 @@ To evaluate the accuracy of model, we decided to go through a manual review proc
 
 
 
-### 5. Conclusion & Future Direction
+### 5. Conclusion and Future Direction
 
 •	Audience Testing
 
