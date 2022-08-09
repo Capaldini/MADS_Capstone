@@ -1,7 +1,7 @@
 # MADS_Capstone_Generating URLs for Coursera Videos
 Master of Applied Data Science Capstone Project 
 
-University of Michigan School of Information
+University of Michigan - School of Information
 
 ## Team Members: 
 * [Nick Capaldini](https://www.linkedin.com/in/nick-capaldini/), nickcaps@umich.edu
