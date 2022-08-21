@@ -54,6 +54,18 @@ The next step is to search query and return URLs for key words extracted. This i
 
 ## 4. Results and Discussion
 
+### •	Demo
+To access the tool you must follow these steps.
+1. Go to the [Coursera Summarizer](https://QEJSCSCHDK5N6XTY.anvil.app/TRSK7WPDLEL4Z6NUKLZYBHLJ) site
+2. Click "Demo"
+3. Enter the password "Bagel"
+4. Enter one of the following URLs
+      - https://www.coursera.org/learn/siads697698/lecture/g3pi8/capstone-overview
+      - https://www.coursera.org/learn/siads697698/lecture/3vwIb/how-to-do-a-standup
+      - https://www.coursera.org/learn/siads697698/lecture/PBRXG/how-to-write-an-effective-blog-post
+      - https://www.coursera.org/learn/siads697698/lecture/USD5r/how-to-collaborate-with-a-team
+      - https://www.coursera.org/learn/siads697698/lecture/uPBqO/how-to-write-documentation-for-your-project-repository
+
 ### •	Accuracy Score
 
 To evaluate the accuracy of model, we decided to go through a manual review process. We went through the key words and URLs one by one and gave a score of 1 if the URL is relevant, otherwise 0. This is a subjective evaluation process and we’ve reached a conclusion that 83.71% of the automatically generated URLs make sense. 
