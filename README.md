@@ -44,6 +44,10 @@ Prior to data cleaning, we did a LDA (LatentDirichletAllocation)analysis with n_
 
 After that, we created a new column to store the token transcripts. Then we ran LDA again with tokenized transcripts and the top 10 topics made more sense. We got rid of filler words and frequently used phrases in spoken English. However, one issue we realized was that LDA was not able to identify grammatically correct phrases, which are important input as we fetch URLs for those phrases. 
 
+### •	Summarizing
+
+To generate our summaries we used the Bert Extractive Summarizer library. This library lets us take the raw text from our model and narrow it down into a summary with a pre-determined number of sentences. One of the biggest challenges of this summarizer was picking the ideal combination of inputs for the hyperparameters. Unlike most models, where you can optimize the hyper-parameters for a specific quantifiable metric such as Recall, our word summaries required manual evaluation. The way we picked our model was to generate a series of summaries for the same transcripts with slight hyper-parameter variations and evaluation whether or not they made logical sense (1 for summary made sense 0 for summary that did not make sense). We did this for several transcripts and picked the parameters that we found led to the highest rates of summaries that made sense to us. In our case the best results came from presetting the number of sentences to 6, not using the first sentence of the transcript in the summary, and using the kmeans clustering algorithm. In the future we hope to make a survey that students can use to provide more objective feedback.
+
 ### •	Feature Engineering
 
 We introduced BERT model to help extract key words and key phrases. We ran KeyphraseCountVectorizer, and the got a list of key words with their cosine similarity to each original document. Finally, we choose the key word with the highest cosine similarity. With the function, we extracted key words for both original transcripts and token transcripts. By reading through the outputs, we believe the key words extracted from original transcripts make more sense. 
